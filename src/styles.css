@@ -1,1 +1,84 @@
-/* You can add global styles to this file, and also import other style files */
+/* BACKGROUND, FONT & FULL CENTERING */
+.aesthetic-wrapper {
+    /* Cream Pink Gradient */
+    background: linear-gradient(135deg, #fff5f5 0%, #f7d1d1 100%); 
+    font-family: 'Inter', -apple-system, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* THE GLASS CARD LAYOUT */
+.glass-card {
+    background: rgba(255, 255, 255, 0.9); /* Slightly more solid for readability */
+    backdrop-filter: blur(15px);
+    padding: 3rem;
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(247, 209, 209, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+/* STYLED H1 and H3 */
+h1 {
+    color: #4a4a4a;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h3 {
+    color: #d6a4a4; /* Warm pinkish-brown */
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+/* AESTHETIC IMAGE STYLING */
+.main-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 2rem 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* AESTHETIC BUTTON */
+.aesthetic-btn {
+    background: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.aesthetic-btn:hover {
+    background: #d6a4a4;
+    transform: translateY(-2px);
+}
+
+.aesthetic-p {
+    color: #6d6d6d;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.sub-text {
+    font-size: 0.85rem;
+    color: #a0a0a0;
+    margin-bottom: 20px;
+}
